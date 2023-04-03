@@ -27,7 +27,7 @@ switch (true) {
         drink = "Milch";
         break;
     case (age >= 6 && age <= 12):
-            drink = "Saft";
+        drink = "Saft";
         break;
     case (age >= 13 && age <= 17):
         drink = "Cola";
