@@ -36,7 +36,7 @@ switch (true) {
         drink = "Wein";
         break;
     default: 
-        drink = "gar nichts"
+        drink = "gar nichts";
         break;
 }
 
