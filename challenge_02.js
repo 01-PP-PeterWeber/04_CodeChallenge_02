@@ -35,7 +35,8 @@ switch (true) {
     case (age >= 18):
         drink = "Wein";
         break;
-    default: "Jack Daniel's Tennesse Whiskey!"
+    default: 
+        drink = "gar nichts!"
         break;
 }
 
