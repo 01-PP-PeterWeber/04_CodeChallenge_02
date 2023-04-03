@@ -16,3 +16,27 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+let name = prompt("Geben Sie Ihren Namen ein:");
+
+let age = parseInt(prompt("Geben Sie Ihr Alter ein:"));
+
+let drink
+
+switch (true) {
+    case (age > 0 && age < 6):
+        drink = "Milch";
+        break;
+    case (age >= 6 && age <= 12):
+            drink = "Saft";
+        break;
+    case (age >= 13 && age <= 17):
+        drink = "Cola";
+        break;
+    case (age >= 18):
+        drink = "Wein";
+        break;
+    default: "Jack Daniel's Tennesse Whiskey!"
+        break;
+}
+
+console.log(name + ", Sie sollten " + drink + " trinken!");
