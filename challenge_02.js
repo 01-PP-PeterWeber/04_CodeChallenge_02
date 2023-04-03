@@ -23,7 +23,7 @@ let age = parseInt(prompt("Geben Sie Ihr Alter ein:"));
 let drink
 
 switch (true) {
-    case (age > 0 && age < 6):
+    case (age >= 0 && age <= 5):
         drink = "Milch";
         break;
     case (age >= 6 && age <= 12):
@@ -36,7 +36,7 @@ switch (true) {
         drink = "Wein";
         break;
     default: 
-        drink = "gar nichts!"
+        drink = "gar nichts"
         break;
 }
 
